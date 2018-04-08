@@ -1,0 +1,95 @@
+/*
+* @Author: TomChen
+* @Date:   2018-04-08 10:56:50
+* @Last Modified by:   TomChen
+* @Last Modified time: 2018-04-08 15:15:01
+*/
+/*Index common*/
+a{
+	text-decoration: none;
+	font-size: 12px;
+	color: #b0b0b0;
+}
+a:hover{
+	color: #fff;
+}
+/*Top*/
+.top{
+	height: 40px;
+	background: black;
+	color: #fff;
+}
+.top .nav{
+	/*width: 500px;*/
+	height: 40px;
+	/*background: gold;*/
+	float: left;
+}
+.top .nav li{
+	height: 40px;
+	line-height: 40px;
+	float: left;
+}
+.top .userinfo li span,
+.top .nav li span{
+	margin: 0 0.5em;
+	color: #333;
+}
+.top .cart{
+	width: 120px;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 20px;
+	margin-left: 20px;
+	background: #424242;
+	float: right;
+}
+.top .cart i{
+	font-size: 20px;
+	vertical-align: top;
+	margin-top: -12px;
+}
+.top .cart span{
+	font-size: 14px;
+}
+.top .cart a:hover{
+	color: #ff6700;
+}
+.top .userinfo{
+	/*width: 160px;*/
+	height: 40px;
+	/*background: pink;*/
+	float: right;
+}
+.top .userinfo li{
+	height: 40px;
+	line-height: 40px;
+	float: left;
+}
+/*Header*/
+.header{
+	height: 100px;
+	background: blue;
+}
+/*Hot*/
+.hot{
+	height: 1270px;
+	background: yellow;
+}
+/*Main*/
+.main{
+	height: 2177px;
+	background: pink;
+
+}
+/*footer*/
+.footer{
+	height: 277px;
+	background: gray;
+
+}
+/*end*/
+.end{
+	height: 148px;
+	background: gold;
+}
