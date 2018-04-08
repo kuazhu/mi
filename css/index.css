@@ -2,7 +2,7 @@
 * @Author: TomChen
 * @Date:   2018-04-08 10:56:50
 * @Last Modified by:   TomChen
-* @Last Modified time: 2018-04-08 16:27:15
+* @Last Modified time: 2018-04-08 17:24:11
 */
 /*Index common*/
 a{
@@ -180,6 +180,103 @@ a:hover{
 .hot{
 	height: 1270px;
 	background: yellow;
+}
+.hot .banner{
+	width: 100%;
+	height: 460px;
+	position: relative;
+}
+.hot .cate{
+	width: 234px;
+	height: 460px;
+	background: rgba(0,0,0,0.7);
+	position: absolute;
+	left:0;
+	top:0;
+	z-index: 999;
+	padding:20px 0;
+	box-sizing: border-box;
+
+}
+.hot .cate li{
+	height: 42px;
+	width: 234px;
+}
+.hot .cate li a{
+	display: inline-block;
+	width: 100%;
+	height: 42px;
+	line-height: 42px;
+	box-sizing: border-box;
+	padding:0 20px 0 30px;
+	font-size: 14px;
+	position: relative;
+
+}
+.hot .cate li a span{
+	position: absolute;
+	/*top:15px;*/
+	right: 20px;
+}
+.hot .cate li a:hover{
+	background: #ff6700;
+	color: #fff;
+}
+.hot .carousel{
+	width: 100%;
+	height: 460px;
+	background: red;
+	position: absolute;
+	left:0;
+	top:0;	
+}
+.hot .carousel .img-box li{
+	width: 1226px;
+	height: 460px;
+	position: absolute;
+	left:0;
+	top:0;
+}
+.hot .carousel .img-box li img{
+	width: 100%;
+	height: 100%;
+}
+.leftArrow,.rightArrow{
+	display: inline-block;
+	width: 30px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	font-size: 24px;
+	color: #fff;
+	position: absolute;
+	top:200px;
+	cursor: pointer;
+	z-index: 999;
+}
+.leftArrow:hover,.rightArrow:hover{
+	background: rgba(0,0,0,0.3);
+}
+.leftArrow{
+	left:234px;
+}
+.rightArrow{
+	right: 0;
+}
+.hot .carousel .btn-box{
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+	z-index: 999;
+}
+.hot .carousel .btn-box li{
+	float: left;
+	width: 10px;
+	height: 10px;
+	border: 1px solid #000;
+	border-radius: 50%;
+	margin-right: 5px;
+	cursor: pointer;
 }
 /*Main*/
 .main{
