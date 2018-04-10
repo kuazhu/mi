@@ -2,7 +2,7 @@
 * @Author: TomChen
 * @Date:   2018-04-08 10:56:50
 * @Last Modified by:   TomChen
-* @Last Modified time: 2018-04-08 17:24:11
+* @Last Modified time: 2018-04-10 18:40:37
 */
 /*Index common*/
 a{
@@ -12,6 +12,12 @@ a{
 }
 a:hover{
 	color: #fff;
+}
+.col1{
+	width: 234px;
+}
+.col4{
+	width: 978px;
 }
 /*Top*/
 .top{
@@ -277,6 +283,78 @@ a:hover{
 	border-radius: 50%;
 	margin-right: 5px;
 	cursor: pointer;
+}
+.hot .start{
+	height: 170px;
+	margin-top: 14px;
+}
+.hot .start .goods{
+	height: 100%;
+	background: #5f5750;
+	float: left;
+}
+.hot .start .goods li{
+	width: 78px;
+	height: 85px;
+	float: left;
+	text-align: center;
+	padding-top: 20px;
+	box-sizing: border-box;
+	position: relative;
+}
+.hot .start .goods li a i{
+	font-size: 20px;
+}
+.hot .start .goods li a span{
+	display: block;
+	font-size: 12px;
+}
+.hot .start .right-line:after{
+	content: '';
+	display: block;
+	width: 1px;
+	height: 70px;
+	background: #ccc;
+	position: absolute;
+	right: 0px;
+	top:5px;
+}
+.hot .start .top-line:before{
+	content: '';
+	display: block;
+	width: 65px;
+	height: 1px;
+	background: #ccc;
+	position: absolute;
+	top: 0px;
+	left:5px;
+}
+.hot .start .list{
+	height: 100%;
+	float: right;
+}
+.hot .start .list li{
+	width: 316px;
+	height: 100%;
+	background: pink;
+	margin-right: 15px;
+	float: left;
+	transition: all 0.2s;
+}
+.hot .start .list li:hover{
+	box-shadow: 0 0 30px rgba(0,0,0,0.1);
+}
+.hot .start .list li a{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
+.hot .start .list li img{
+	width: 100%;
+	height: 100%;
+}
+.hot .start .list li:last-child{
+	margin-right: 0px;
 }
 /*Main*/
 .main{
