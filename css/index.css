@@ -2,7 +2,7 @@
 * @Author: TomChen
 * @Date:   2018-04-08 10:56:50
 * @Last Modified by:   TomChen
-* @Last Modified time: 2018-04-10 21:02:45
+* @Last Modified time: 2018-04-11 16:45:24
 */
 /*Index common*/
 a{
@@ -565,16 +565,6 @@ a:hover{
 	height: 100%;
 }
 
-.elec .box-hd .more li{
-	float: left;
-	font-size: 16px;
-	margin-left: 22px;
-	color: #424242;
-}
-.elec .box-hd .more li:nth-child(1) span{
-	color: #ff6700;
-	border-bottom: 2px solid #ff6700;
-}
 .elec .box-bd li{
 	height: 302px;
 	background: #fff;
@@ -602,55 +592,28 @@ a:hover{
 	background: #fff;
 	width: 100%;
 	height: 144px;
-	box-sizing: border-box;
-	padding-top: 42px;
 }
+
 .elec .box-bd li:nth-child(10) .top .top-left{
 	float: left;
-	width: 110px;
-	text-align: center;
 }
 .elec .box-bd li:nth-child(10) .top .desc{
 	color: #333;
-	font-size: 14px;
 }
+
 .elec .box-bd li:nth-child(10) .top .price{
 	color: #ff6700;
-	padding-right: 35px;
 }
+
 .elec .box-bd li:nth-child(10) .top .top-right{
 	float: right;
-	width: 124px;
-	text-align: center;
 }
+
 .elec .box-bd li:nth-child(10) .bottom{
 	background: #fff;
 	width: 100%;
 	height: 144px;
 	box-sizing: border-box;
-	padding-top: 42px;
-}
-.elec .box-bd li:nth-child(10) .bottom .desc{
-	color: #333;
-	font-size: 14px;
-}
-.elec .box-bd li:nth-child(10) .bottom .bottom-left{
-		float: left;
-	width: 110px;
-	text-align: center;
-}
-.elec .box-bd li:nth-child(10) .bottom .bottom-right{
-	float: right;
-	width: 124px;
-	text-align: center;
-}
-.elec .box-bd li:nth-child(10) .bottom .more{
-	color: #757579;
-	padding-right: 28px;
-}
-.elec .box-bd li:nth-child(10) .bottom i{
-	font-size: 50px;
-	color: #ff6700;
 }
 /*footer*/
 .footer{
