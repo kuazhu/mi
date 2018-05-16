@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/font.css">
 	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/carousel.css">
 	<link rel="stylesheet" href="css/index.css">
 </head>
 <body>
@@ -77,27 +78,22 @@
 				</div><a class="search-btn" href="#"> 
 					<i class="iconfont">&#xe616;</i>
 				</a>
+				<ul class="list">
+					<li>
+						<span>小米6x</span>
+						<span>32件</span>
+					</li>
+					<li>
+						<span>小米6x</span>
+						<span>32件</span>
+					</li>					
+				</ul>
 			</div>
 		</div>
 		<div class="nav-content">
 			<div class="container">
+				<div class="loader"></div>
 				<ul>
-					<li>
-						<div class="img-box">
-							<img src="images/p1.jpg" alt="">
-						</div>
-						<p class="product-name">小米手机MXs</p>
-						<p class="product-price">3299元起</p>
-						<span class="tag">热门</span>
-					</li>
-					<li>
-						<div class="img-box">
-							<img src="images/p1.jpg" alt="">
-						</div>
-						<p class="product-name">小米手机MXs</p>
-						<p class="product-price">3299元起</p>
-						<span class="tag">热门</span>
-					</li>
 				</ul>
 			</div>
 		</div>
@@ -121,19 +117,8 @@
 						<li><a href="#">手机电话卡<span>&gt;</span></a></li>
 					</ul>
 				</div>
-				<div class="carousel">
-					<ul class="img-box">
-						<li><img src="images/b1.jpg" alt=""></li>
-						<li><img src="images/b2.jpg" alt=""></li>
-						<li><img src="images/b3.jpg" alt=""></li>
-					</ul>
-					<span class="leftArrow">&lt;</span>
-					<span class="rightArrow">&gt;</span>
-					<ul class="btn-box">
-						<li></li>
-						<li></li>
-						<li></li>
-					</ul>
+				<div id="carousel">
+			
 				</div>
 			</div>
 			<div class="start">
@@ -594,5 +579,6 @@
 	<!--End end-->
 </body>
 <script src="js/tool.js"></script>
+<script src="js/data.js"></script>
 <script src="js/index.js"></script>
 </html>
